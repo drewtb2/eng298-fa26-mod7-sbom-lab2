@@ -1,0 +1,30 @@
+7,9c7,9
+< ii  apt                           2.6.1                          amd64        commandline package manager
+< ii  apt-transport-https           2.6.1                          all          transitional package for https support
+< ii  apt-utils                     2.6.1                          amd64        package management related utility programs
+---
+> ii  apt                           2.6.2                          amd64        commandline package manager
+> ii  apt-transport-https           2.6.2                          all          transitional package for https support
+> ii  apt-utils                     2.6.2                          amd64        package management related utility programs
+72c72
+< ii  libapt-pkg6.0:amd64           2.6.1                          amd64        package management runtime library
+---
+> ii  libapt-pkg6.0:amd64           2.6.2                          amd64        package management runtime library
+218,219c218,219
+< ii  libsasl2-2:amd64              2.1.28+dfsg-10                 amd64        Cyrus SASL - authentication abstraction library
+< ii  libsasl2-modules-db:amd64     2.1.28+dfsg-10                 amd64        Cyrus SASL - pluggable authentication modules (DB)
+---
+> ii  libsasl2-2:amd64              2.1.28+dfsg-10+deb12u1         amd64        Cyrus SASL - authentication abstraction library
+> ii  libsasl2-modules-db:amd64     2.1.28+dfsg-10+deb12u1         amd64        Cyrus SASL - pluggable authentication modules (DB)
+283c283
+< ii  linux-libc-dev:amd64          6.1.190-1                      amd64        Linux support headers for userspace development
+---
+> ii  linux-libc-dev:amd64          6.1.192-2                      amd64        Linux support headers for userspace development
+317c317
+< ii  rsync                         3.2.7-1+deb12u6                amd64        fast, versatile, remote (and local) file-copying tool
+---
+> ii  rsync                         3.5.0+ds1-0+deb12u1            amd64        fast, versatile, remote (and local) file-copying tool
+335c335
+< ii  tzdata                        2026e-0+deb12u1                all          time zone and daylight-saving time data
+---
+> ii  tzdata                        2026f-0+deb12u1                all          time zone and daylight-saving time data
